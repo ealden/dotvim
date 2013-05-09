@@ -13,3 +13,4 @@ filetype plugin indent on
 set sw=2 sts=2 et
 set ruler
 set guioptions=-L
+set guifont=inconsolata:h12
