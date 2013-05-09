@@ -5,6 +5,8 @@ set background=dark
 set nocp
 set bs=indent,eol,start
 
+colorscheme jellybeans
+
 set gcr=n:blinkon0
 set hls is ic scs
 filetype plugin indent on
