@@ -1,11 +1,11 @@
 execute pathogen#infect()
 
-let mapleader=','
-
 set nocp
 set bs=indent,eol,start
 
 colorscheme jellybeans
+set lines=80
+set columns=160
 
 set gcr=n:blinkon0
 set hls is ic scs
