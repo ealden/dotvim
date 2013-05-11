@@ -15,6 +15,7 @@ set ruler
 set guioptions=
 set guifont=inconsolata:h12
 set number
+set showtabline=0
 
 macmenu &File.New\ Tab key=<nop>
 map <D-t> <Plug>PeepOpen
