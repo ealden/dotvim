@@ -19,3 +19,5 @@ set showtabline=0
 
 macmenu &File.New\ Tab key=<nop>
 map <D-t> <Plug>PeepOpen
+
+NERDTree
