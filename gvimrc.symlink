@@ -19,8 +19,3 @@ set showtabline=0
 
 macmenu &File.New\ Tab key=<nop>
 map <D-t> <Plug>PeepOpen
-
-autocmd VimEnter * NERDTree
-autocmd BufEnter * NERDTreeMirror
-
-autocmd VimEnter * wincmd w
