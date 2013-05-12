@@ -12,3 +12,4 @@ set guioptions=
 set guifont=inconsolata:h12
 set nonumber
 set showtabline=0
+set cursorline
