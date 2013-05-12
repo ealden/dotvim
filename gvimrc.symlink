@@ -10,5 +10,5 @@ filetype plugin indent on
 set ruler
 set guioptions=
 set guifont=inconsolata:h12
-set number
+set nonumber
 set showtabline=0
