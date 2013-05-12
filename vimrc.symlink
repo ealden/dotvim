@@ -2,3 +2,8 @@ execute pathogen#infect()
 
 syntax on
 set background=dark
+
+set nocp
+set bs=indent,eol,start
+set sw=2 sts=2 et
+set hls is ic scs
