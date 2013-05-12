@@ -11,3 +11,4 @@ set list
 set cursorline
 set number
 set history=200
+set updatecount=0
