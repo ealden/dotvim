@@ -7,6 +7,5 @@ set nocp
 set bs=indent,eol,start
 set sw=2 sts=2 et
 set hls is ic scs
-set number
 set history=200
 set updatecount=0
