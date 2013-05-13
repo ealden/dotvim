@@ -1,8 +1,5 @@
 execute pathogen#infect()
 
-macmenu &File.New\ Tab key=<nop>
-map <D-t> <Plug>PeepOpen
-
 set gcr=n:blinkon0
 filetype plugin indent on
 set ruler
