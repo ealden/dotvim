@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set gcr=n:blinkon0
 filetype plugin indent on
 set ruler
