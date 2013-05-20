@@ -14,3 +14,4 @@ set history=200
 set updatecount=0
 set wildmenu
 set wildmode=list:longest
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
