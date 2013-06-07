@@ -4,5 +4,5 @@ set ruler
 set guioptions=aiAe
 set guifont=inconsolata:h12
 set nonumber
-set showtabline=0
+set showtabline=1
 set cursorline
