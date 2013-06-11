@@ -3,8 +3,6 @@ execute pathogen#infect()
 let mapleader=','
 
 syntax on
-set background=dark
-colorscheme jellybeans
 
 set nocp
 set bs=indent,eol,start
