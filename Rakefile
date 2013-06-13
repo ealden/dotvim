@@ -2,6 +2,9 @@ task :setup do
   ['vimrc', 'gvimrc'].each do |dotfile|
     create_symlink dotfile
   end
+
+  `git submodule --quiet init`
+  `git submodule --quiet update`
 end
 
 task :default => :setup
