@@ -1,0 +1,30 @@
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = git://github.com/ealden/ack.vim/
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = git://github.com/ealden/ctrlp.vim/
+[submodule "bundle/jellybeans.vim"]
+	path = bundle/jellybeans.vim
+	url = git://github.com/ealden/jellybeans.vim/
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = git://github.com/ealden/vim-bundler/
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = git://github.com/ealden/vim-coffee-script/
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/ealden/vim-fugitive/
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git://github.com/ealden/vim-json/
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git://github.com/ealden/vim-markdown/
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/ealden/vim-rails/
+[submodule "bundle/vim-rbenv"]
+	path = bundle/vim-rbenv
+	url = git://github.com/ealden/vim-rbenv/
