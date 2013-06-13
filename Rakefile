@@ -16,7 +16,7 @@ def create_symlink dotfile
   dotfile_path = File.expand_path dotfile
 
   if File.exists? symlink_path
-    puts "Removing #{symlink} and replacing it with #{dotfile}."
+    puts "Replaced #{symlink} with my version."
 
     File.delete symlink_path
   end
