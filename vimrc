@@ -16,7 +16,7 @@ set wildmode=list:longest
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
 
 set laststatus=2
-set statusline=%f\ %m\ %r 
+set statusline=%F\ %m\ %r 
 set statusline+=%{fugitive#statusline()}
 set statusline+=\ %l/%L[%p%%] 
 set statusline+=\ %v[0x%B] 
