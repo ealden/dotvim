@@ -28,3 +28,6 @@
 [submodule "bundle/vim-rbenv"]
 	path = bundle/vim-rbenv
 	url = git://github.com/ealden/vim-rbenv/
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = git://github.com/ealden/vim-slim
