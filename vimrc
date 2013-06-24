@@ -33,3 +33,4 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 set autochdir
+set splitbelow
