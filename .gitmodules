@@ -28,3 +28,6 @@
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = git://github.com/ealden/vim-slim
+[submodule "bundle/vim-blade"]
+	path = bundle/vim-blade
+	url = https://github.com/ealden/vim-blade.git
