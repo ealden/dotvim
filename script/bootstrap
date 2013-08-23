@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+echo ""
+echo "  Ealden's Vim Config"
+echo ""
+
+# Initialize submodules
+echo "  + Initializing submodules..."
+git submodule init
+git submodule update
+
+# Set up symlinks
+echo "  + Setting up symlinks"
+rake
+
+echo ""
+echo "  We're ready to rock!"
