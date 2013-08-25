@@ -16,10 +16,10 @@ set wildmode=list:longest
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
 
 set laststatus=2
-set statusline=%F\ %m\ %r 
+set statusline=%F\ %m\ %r
 set statusline+=%{fugitive#statusline()}
-set statusline+=\ %l/%L[%p%%] 
-set statusline+=\ %v[0x%B] 
+set statusline+=\ %l/%L[%p%%]
+set statusline+=\ %v[0x%B]
 
 " disable cursor keys in normal mode
 map <Left>  :echo "no!"<cr>
@@ -37,4 +37,4 @@ let g:ctrlp_user_command = 'ag --nogroup --nobreak --noheading --nocolor -g "" %
 set autochdir
 set splitbelow
 
-autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType ruby,php,sql autocmd BufWritePre * :%s/\s\+$//e
