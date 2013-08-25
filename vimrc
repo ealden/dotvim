@@ -36,3 +36,5 @@ let g:ctrlp_user_command = 'ag --nogroup --nobreak --noheading --nocolor -g "" %
 
 set autochdir
 set splitbelow
+
+autocmd BufWritePre * :%s/\s\+$//e
