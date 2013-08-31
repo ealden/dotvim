@@ -11,6 +11,10 @@ echo "  + Initializing submodules..."
 git submodule init
 git submodule update
 
+# Install bundles
+echo "  + Installing bundles..."
+vim +BundleInstall +qall
+
 # Set up symlinks
 echo "  + Setting up symlinks"
 rake
