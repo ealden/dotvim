@@ -1,3 +1,3 @@
 # dotvim
 
-Vim Configuration
+Run `./script/bootstrap` to setup!
