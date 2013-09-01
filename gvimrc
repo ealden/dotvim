@@ -1,5 +1,4 @@
 set gcr=n:blinkon0
-filetype plugin indent on
 set ruler
 set guioptions=aiAe
 set guifont=inconsolata:h12
