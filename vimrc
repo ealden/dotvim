@@ -66,3 +66,7 @@ set autochdir
 set splitbelow
 
 autocmd FileType ruby,php,sql autocmd BufWritePre * :%s/\s\+$//e
+
+set background=dark
+colorscheme molokai
+let g:molokai_original = 1
