@@ -13,7 +13,7 @@ git submodule update
 
 # Install bundles
 echo "  + Installing bundles..."
-vim +BundleInstall +qall
+vim +BundleUpdate +qall
 
 # Set up symlinks
 echo "  + Setting up symlinks"
