@@ -22,6 +22,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'rosstimson/bats.vim'
+Bundle 'Keithbsmiley/rspec.vim'
 
 filetype plugin indent on
 
