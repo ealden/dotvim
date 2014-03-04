@@ -23,6 +23,7 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'rosstimson/bats.vim'
 Bundle 'Keithbsmiley/rspec.vim'
+Bundle 'tpope/vim-cucumber'
 
 filetype plugin indent on
 
