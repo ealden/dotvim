@@ -72,7 +72,7 @@ let g:ctrlp_working_path_mode = 'ra'
 set autochdir
 set splitbelow
 
-autocmd FileType ruby,php,sql autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType ruby,php,sql,coffee,js autocmd BufWritePre * :%s/\s\+$//e
 
 " set background=dark
 " colorscheme molokai
