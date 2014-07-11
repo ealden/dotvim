@@ -24,6 +24,7 @@ Bundle 'rosstimson/bats.vim'
 Bundle 'Keithbsmiley/rspec.vim'
 Bundle 'tpope/vim-cucumber'
 Bundle 'sunaku/vim-ruby-minitest'
+Bundle 'fatih/vim-go'
 
 filetype plugin indent on
 
