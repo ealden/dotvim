@@ -71,6 +71,7 @@ let g:ctrlp_working_path_mode = 'ra'
 
 set autochdir
 set splitbelow
+set splitright
 
 autocmd FileType ruby,php,sql,coffee,js autocmd BufWritePre * :%s/\s\+$//e
 
