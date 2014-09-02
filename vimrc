@@ -1,31 +1,32 @@
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'rking/ag.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-rbenv'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-commentary'
-Bundle 'xsbeats/vim-blade'
-Bundle 'slim-template/vim-slim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'elzr/vim-json'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rosstimson/bats.vim'
-Bundle 'Keithbsmiley/rspec.vim'
-Bundle 'tpope/vim-cucumber'
-Bundle 'sunaku/vim-ruby-minitest'
-Bundle 'fatih/vim-go'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'rking/ag.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-rbenv'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-markdown'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
+Plugin 'xsbeats/vim-blade'
+Plugin 'slim-template/vim-slim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'elzr/vim-json'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rosstimson/bats.vim'
+Plugin 'Keithbsmiley/rspec.vim'
+Plugin 'tpope/vim-cucumber'
+Plugin 'sunaku/vim-ruby-minitest'
+Plugin 'fatih/vim-go'
 
+call vundle#end()
 filetype plugin indent on
 
 let mapleader=','
