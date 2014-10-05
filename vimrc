@@ -24,7 +24,7 @@ Plugin 'rosstimson/bats.vim'
 Plugin 'Keithbsmiley/rspec.vim'
 Plugin 'tpope/vim-cucumber'
 Plugin 'sunaku/vim-ruby-minitest'
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
