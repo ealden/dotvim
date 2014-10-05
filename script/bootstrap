@@ -16,7 +16,7 @@ echo "  + Installing bundles..."
 vim +PluginUpdate +qall
 
 # Set up symlinks
-echo "  + Setting up symlinks"
+echo "  + Setting up symlinks..."
 rake
 
 echo ""
