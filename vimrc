@@ -26,6 +26,7 @@ Plugin 'tpope/vim-cucumber'
 Plugin 'sunaku/vim-ruby-minitest'
 " Plugin 'fatih/vim-go'
 Plugin 'vim-scripts/TailMinusF'
+Plugin 'othree/html5.vim'
 
 call vundle#end()
 filetype plugin indent on
