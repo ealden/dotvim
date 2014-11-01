@@ -85,10 +85,6 @@ set splitright
 
 autocmd FileType ruby,php,sql,coffee,js autocmd BufWritePre * :%s/\s\+$//e
 
-" set background=dark
-" colorscheme molokai
-" let g:molokai_original = 1
-
 map ,t :tabnew<cr>
 set showtabline=0
 
