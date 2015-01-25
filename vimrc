@@ -89,3 +89,5 @@ map ,t :tabnew<cr>
 "set showtabline=0
 
 autocmd BufRead,BufNewFile *.erb set filetype=eruby.html
+
+set rnu
