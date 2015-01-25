@@ -90,4 +90,5 @@ map ,t :tabnew<cr>
 
 autocmd BufRead,BufNewFile *.erb set filetype=eruby.html
 
-set rnu
+set number
+set relativenumber
