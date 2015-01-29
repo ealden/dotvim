@@ -29,8 +29,6 @@ Plugin 'vim-scripts/TailMinusF'
 Plugin 'othree/html5.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-obsession'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
 
 call vundle#end()
 filetype plugin indent on
