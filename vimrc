@@ -94,3 +94,6 @@ set relativenumber
 
 autocmd User Rails map <buffer> <F8> :Rake!<CR>
 autocmd User Rails map <buffer> <F9> :.Rake!<CR>
+
+autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
+autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
