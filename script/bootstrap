@@ -6,11 +6,6 @@ echo ""
 echo "  Ealden's Vim Config"
 echo ""
 
-if [ ! -n "$GOPATH" ]; then
-  echo '  x Please set $GOPATH for vim-go plugin'
-  exit
-fi
-
 # Initialize submodules
 echo "  + Initializing submodules..."
 git submodule init
