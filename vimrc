@@ -81,7 +81,7 @@ set autochdir
 set splitbelow
 set splitright
 
-autocmd FileType ruby,php,sql,coffee,js autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType ruby,php,sql,coffee,js,gt,jt,gs autocmd BufWritePre * :%s/\s\+$//e
 
 map ,t :tabnew<cr>
 "set showtabline=0
