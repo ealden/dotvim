@@ -86,10 +86,11 @@ autocmd FileType ruby,php,sql,coffee,javascript autocmd BufWritePre * :%s/\s\+$/
 map ,t :tabnew<cr>
 "set showtabline=0
 
-autocmd BufRead,BufNewFile *.erb  set filetype=eruby.html
-autocmd BufRead,BufNewFile *.gt   set filetype=javascript
-autocmd BufRead,BufNewFile *.jt   set filetype=javascript
-autocmd BufRead,BufNewFile *.gs   set filetype=javascript
+autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
+autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
+autocmd BufRead,BufNewFile *.gt         set filetype=javascript
+autocmd BufRead,BufNewFile *.jt         set filetype=javascript
+autocmd BufRead,BufNewFile *.gs         set filetype=javascript
 
 set number
 set relativenumber
