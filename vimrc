@@ -53,13 +53,11 @@ set statusline+=%{fugitive#statusline()}
 set statusline+=\ %l/%L[%p%%]
 set statusline+=\ %v[0x%B]
 
-" disable cursor keys in normal mode
 map <Left>  :echo "no!"<cr>
 map <Right> :echo "no!"<cr>
 map <Up>    :echo "no!"<cr>
 map <Down>  :echo "no!"<cr>
 
-" easily switch between splits by holding C plus navigation keys
 map <C-H> <C-W>h
 map <C-J> <C-W>j
 map <C-K> <C-W>k
@@ -73,11 +71,6 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_user_command = 'ag --nogroup --nobreak --noheading --nocolor --hidden -g "" %s '
 let g:ctrlp_working_path_mode = 'ra'
 
-" let g:ctrlp_prompt_mappings = {
-"     \ 'AcceptSelection("e")': ['<c-t>'],
-"     \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
-"     \ }
-
 set autochdir
 set splitbelow
 set splitright
@@ -85,7 +78,6 @@ set splitright
 autocmd FileType ruby,php,sql,coffee,javascript autocmd BufWritePre * :%s/\s\+$//e
 
 map ,t :tabnew<cr>
-"set showtabline=0
 
 autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
 autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
