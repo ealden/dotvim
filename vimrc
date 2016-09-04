@@ -90,3 +90,15 @@ set relativenumber
 
 autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
+
+let g:rails_projections = {
+      \ "features/*.feature": {
+      \   "command":    "feature",
+      \   "template":   "Feature: ",
+      \   "alternate":  "features/step_definitions/{}_steps.rb"
+      \ },
+      \ "features/step_definitions/*_steps.rb": {
+      \   "command":    "step",
+      \   "template":   "",
+      \   "alternate":  "features/{}.feature"
+      \ }}
