@@ -84,6 +84,8 @@ autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
 autocmd BufRead,BufNewFile *.gt         set filetype=javascript
 autocmd BufRead,BufNewFile *.jt         set filetype=javascript
 autocmd BufRead,BufNewFile *.gs         set filetype=javascript
+autocmd BufRead,BufNewFile *.axlsx      set filetype=ruby
+autocmd BufRead,BufNewFile *.vba        set filetype=vb
 
 set number
 set relativenumber
