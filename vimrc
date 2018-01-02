@@ -28,6 +28,7 @@ Plugin 'vim-scripts/TailMinusF'
 Plugin 'othree/html5.vim'
 Plugin 'tpope/vim-obsession'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
