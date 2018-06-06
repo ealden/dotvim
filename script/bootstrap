@@ -19,7 +19,7 @@ git clone -q https://github.com/tpope/vim-cucumber
 git clone -q https://github.com/tpope/vim-endwise
 git clone -q https://github.com/tpope/vim-fugitive
 git clone -q https://github.com/tpope/vim-markdown
-git clone -q https://github.com/tpope/vim-rails
+git clone -q -b 'v5.4' https://github.com/tpope/vim-rails
 git clone -q https://github.com/tpope/vim-rbenv
 git clone -q https://github.com/tpope/vim-surround
 
