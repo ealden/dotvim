@@ -3,7 +3,7 @@
 set -e
 
 echo ""
-echo "  Ealden's Vim Config"
+echo "  Vim Configuration"
 echo ""
 
 echo "  + Setting up packages..."
