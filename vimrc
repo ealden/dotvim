@@ -1,39 +1,3 @@
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'rking/ag.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-rbenv'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-markdown'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-commentary'
-Plugin 'xsbeats/vim-blade'
-Plugin 'slim-template/vim-slim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'elzr/vim-json'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'rosstimson/bats.vim'
-Plugin 'Keithbsmiley/rspec.vim'
-Plugin 'tpope/vim-cucumber'
-Plugin 'sunaku/vim-ruby-minitest'
-Plugin 'vim-scripts/TailMinusF'
-Plugin 'othree/html5.vim'
-Plugin 'tpope/vim-obsession'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'pangloss/vim-javascript'
-
-call vundle#end()
-filetype plugin indent on
-
 let mapleader=','
 
 syntax on

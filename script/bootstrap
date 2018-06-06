@@ -6,15 +6,6 @@ echo ""
 echo "  Ealden's Vim Config"
 echo ""
 
-# Initialize submodules
-echo "  + Initializing submodules..."
-git submodule init
-git submodule update
-
-# Install bundles
-echo "  + Installing bundles..."
-vim +PluginUpdate +qall
-
 echo "  + Setting up symlinks..."
 ln -fs vimrc ~/.vimrc
 
