@@ -15,9 +15,8 @@ git submodule update
 echo "  + Installing bundles..."
 vim +PluginUpdate +qall
 
-# Set up symlinks
 echo "  + Setting up symlinks..."
-rake
+ln -fs vimrc ~/.vimrc
 
 echo ""
 echo "  We're ready to rock!"
