@@ -12,6 +12,10 @@ set updatecount=0
 set number
 set relativenumber
 
+set autochdir
+set splitbelow
+set splitright
+
 set wildmenu
 set wildmode=list:longest
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
@@ -36,10 +40,6 @@ map ,t :tabnew<cr>
 
 autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
-
-set autochdir
-set splitbelow
-set splitright
 
 autocmd FileType ruby,php,sql,coffee,javascript,html autocmd BufWritePre * :%s/\s\+$//e
 
