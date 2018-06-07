@@ -41,7 +41,12 @@ map ,t :tabnew<cr>
 autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
 
-autocmd FileType ruby,php,sql,coffee,javascript,html autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType ruby       autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType php        autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType sql        autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
 autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
