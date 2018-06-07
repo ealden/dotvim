@@ -41,13 +41,6 @@ map ,t :tabnew<cr>
 autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
 
-autocmd FileType ruby       autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType php        autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType sql        autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
-
 autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
 autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
 autocmd BufRead,BufNewFile *.gradle     set filetype=groovy
@@ -59,6 +52,13 @@ autocmd BufRead,BufNewFile berksfile    set filetype=ruby
 autocmd BufRead,BufNewFile Gemfile      set filetype=ruby
 autocmd BufRead,BufNewFile Guardfile    set filetype=ruby
 autocmd BufRead,BufNewFile *.vba        set filetype=vb
+
+autocmd FileType ruby       autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType php        autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType sql        autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
 
 let g:rails_projections = {
       \ "features/*.feature": {
