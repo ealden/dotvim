@@ -32,13 +32,16 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
 
+map ,t :tabnew<cr>
+
+autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
+autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
+
 set autochdir
 set splitbelow
 set splitright
 
 autocmd FileType ruby,php,sql,coffee,javascript,html autocmd BufWritePre * :%s/\s\+$//e
-
-map ,t :tabnew<cr>
 
 autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
 autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
@@ -51,9 +54,6 @@ autocmd BufRead,BufNewFile berksfile    set filetype=ruby
 autocmd BufRead,BufNewFile Gemfile      set filetype=ruby
 autocmd BufRead,BufNewFile Guardfile    set filetype=ruby
 autocmd BufRead,BufNewFile *.vba        set filetype=vb
-
-autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
-autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
 
 let g:rails_projections = {
       \ "features/*.feature": {
