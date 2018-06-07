@@ -9,6 +9,9 @@ set hls is ic scs
 set history=200
 set updatecount=0
 
+set number
+set relativenumber
+
 set wildmenu
 set wildmode=list:longest
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
@@ -56,9 +59,6 @@ autocmd BufRead,BufNewFile berksfile    set filetype=ruby
 autocmd BufRead,BufNewFile Gemfile      set filetype=ruby
 autocmd BufRead,BufNewFile Guardfile    set filetype=ruby
 autocmd BufRead,BufNewFile *.vba        set filetype=vb
-
-set number
-set relativenumber
 
 autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
