@@ -79,3 +79,5 @@ let g:ctrlp_custom_ignore = {
 
 let g:ctrlp_user_command = 'ag --nogroup --nobreak --noheading --nocolor --hidden -g "" %s '
 let g:ctrlp_working_path_mode = 'ra'
+
+let g:ackprg = 'ag --vimgrep'
