@@ -60,6 +60,7 @@ autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType cs         autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType json       autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd FileType cs setlocal sw=4 sts=4 et
 
