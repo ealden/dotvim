@@ -59,6 +59,7 @@ autocmd FileType sql        autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
+autocmd FileType cs         autocmd BufWritePre * :%s/\s\+$//e
 
 let g:rails_projections = {
       \ "features/*.feature": {
