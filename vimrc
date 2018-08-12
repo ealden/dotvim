@@ -61,6 +61,8 @@ autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType cs         autocmd BufWritePre * :%s/\s\+$//e
 
+autocmd FileType cs setlocal sw=4 sts=4 et
+
 let g:rails_projections = {
       \ "features/*.feature": {
       \   "command":    "feature",
