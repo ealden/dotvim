@@ -36,33 +36,33 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
 
-map ,t :tabnew<cr>
+map ,t :tabnew<CR>
 
-autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
-autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
+au User Rails map <buffer> <Leader>e :Rake!<CR>
+au User Rails map <buffer> <Leader>r :.Rake!<CR>
 
-autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
-autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
-autocmd BufRead,BufNewFile *.gradle     set filetype=groovy
-autocmd BufRead,BufNewFile *.gs         set filetype=javascript
-autocmd BufRead,BufNewFile *.gt         set filetype=javascript
-autocmd BufRead,BufNewFile *.jt         set filetype=javascript
-autocmd BufRead,BufNewFile *.axlsx      set filetype=ruby
-autocmd BufRead,BufNewFile berksfile    set filetype=ruby
-autocmd BufRead,BufNewFile Gemfile      set filetype=ruby
-autocmd BufRead,BufNewFile Guardfile    set filetype=ruby
-autocmd BufRead,BufNewFile *.vba        set filetype=vb
+au BufRead,BufNewFile *.coffee.erb  set ft=coffee
+au BufRead,BufNewFile *.erb         set ft=eruby.html
+au BufRead,BufNewFile *.gradle      set ft=groovy
+au BufRead,BufNewFile *.gs          set ft=javascript
+au BufRead,BufNewFile *.gt          set ft=javascript
+au BufRead,BufNewFile *.jt          set ft=javascript
+au BufRead,BufNewFile *.axlsx       set ft=ruby
+au BufRead,BufNewFile berksfile     set ft=ruby
+au BufRead,BufNewFile Gemfile       set ft=ruby
+au BufRead,BufNewFile Guardfile     set ft=ruby
+au BufRead,BufNewFile *.vba         set ft=vb
 
-autocmd FileType ruby       autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType php        autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType sql        autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType coffee     autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType javascript autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType html       autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType cs         autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType json       autocmd BufWritePre * :%s/\s\+$//e
+au FileType ruby        au BufWritePre * :%s/\s\+$//e
+au FileType php         au BufWritePre * :%s/\s\+$//e
+au FileType sql         au BufWritePre * :%s/\s\+$//e
+au FileType coffee      au BufWritePre * :%s/\s\+$//e
+au FileType javascript  au BufWritePre * :%s/\s\+$//e
+au FileType html        au BufWritePre * :%s/\s\+$//e
+au FileType cs          au BufWritePre * :%s/\s\+$//e
+au FileType json        au BufWritePre * :%s/\s\+$//e
 
-autocmd FileType cs setlocal sw=4 sts=4 et
+au FileType cs setl sw=4 sts=4 et
 
 let g:rails_projections = {
       \ "features/*.feature": {
