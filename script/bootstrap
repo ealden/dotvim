@@ -12,20 +12,20 @@ rm -rf pack/
 mkdir -p pack/general/start
 pushd pack/general/start > /dev/null
 
-git clone -q https://github.com/mileszs/ack.vim
-git clone -q https://github.com/ctrlpvim/ctrlp.vim
-git clone -q https://github.com/mattn/emmet-vim
-git clone -q https://github.com/pangloss/vim-javascript
-git clone -q https://github.com/tpope/vim-bundler
-git clone -q https://github.com/tpope/vim-commentary
-git clone -q https://github.com/tpope/vim-cucumber
-git clone -q https://github.com/tpope/vim-dispatch
-git clone -q https://github.com/tpope/vim-endwise
-git clone -q https://github.com/tpope/vim-fugitive
-git clone -q https://github.com/tpope/vim-markdown
-git clone -q https://github.com/tpope/vim-rails
-git clone -q https://github.com/tpope/vim-rbenv
-git clone -q https://github.com/tpope/vim-surround
+git clone -q https://github.com/mileszs/ack.vim.git
+git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
+git clone -q https://github.com/mattn/emmet-vim.git
+git clone -q https://github.com/pangloss/vim-javascript.git
+git clone -q https://github.com/tpope/vim-bundler.git
+git clone -q https://github.com/tpope/vim-commentary.git
+git clone -q https://github.com/tpope/vim-cucumber.git
+git clone -q https://github.com/tpope/vim-dispatch.git
+git clone -q https://github.com/tpope/vim-endwise.git
+git clone -q https://github.com/tpope/vim-fugitive.git
+git clone -q https://github.com/tpope/vim-markdown.git
+git clone -q https://github.com/tpope/vim-rails.git
+git clone -q https://github.com/tpope/vim-rbenv.git
+git clone -q https://github.com/tpope/vim-surround.git
 
 popd > /dev/null
 
