@@ -6,6 +6,10 @@ echo ""
 echo "  Vim Configuration"
 echo ""
 
+echo "  + Setting up symlinks..."
+ln -fs `pwd`/ ~/.vim
+ln -fs `pwd`/vimrc ~/.vimrc
+
 echo "  + Setting up packages..."
 rm -rf pack/
 
@@ -28,9 +32,6 @@ git clone -q https://github.com/tpope/vim-rbenv.git
 git clone -q https://github.com/tpope/vim-surround.git
 
 popd > /dev/null
-
-echo "  + Setting up symlinks..."
-ln -fs `pwd`/vimrc ~/.vimrc
 
 echo ""
 echo "  We're ready to rock!"
