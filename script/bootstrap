@@ -30,7 +30,7 @@ git clone -q https://github.com/tpope/vim-surround.git
 popd > /dev/null
 
 echo "  + Setting up symlinks..."
-ln -fs vimrc ~/.vimrc
+ln -fs `pwd`/vimrc ~/.vimrc
 
 echo ""
 echo "  We're ready to rock!"
