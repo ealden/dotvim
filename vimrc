@@ -22,7 +22,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
 
 set laststatus=2
 set statusline=%F\ %m\ %r
-set statusline+=%{fugitive#statusline()}
+set statusline+=%{FugitiveStatusline()}
 set statusline+=\ %l/%L[%p%%]
 set statusline+=\ %v[0x%B]
 
