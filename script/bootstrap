@@ -7,6 +7,9 @@ echo "  Vim Configuration"
 echo ""
 
 echo "  + Setting up symlinks..."
+rm -f ~/.vim
+rm -f ~/.vimrc
+
 ln -fs `pwd`/ ~/.vim
 ln -fs `pwd`/vimrc ~/.vimrc
 
