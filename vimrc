@@ -36,7 +36,7 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
 
-map ,t :tabnew<CR>
+map <Leader>t :tabnew<CR>
 
 au User Rails map <buffer> <Leader>e :Rake!<CR>
 au User Rails map <buffer> <Leader>r :.Rake!<CR>
