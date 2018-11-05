@@ -17,7 +17,7 @@ echo "  + Setting up packages..."
 rm -rf pack/
 
 mkdir -p pack/all/start
-pushd pack/all/start > /dev/null
+cd pack/all/start
 
 git clone -q https://github.com/mileszs/ack.vim.git
 git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
@@ -34,7 +34,7 @@ git clone -q -b v5.4 https://github.com/tpope/vim-rails.git
 git clone -q https://github.com/tpope/vim-rbenv.git
 git clone -q https://github.com/tpope/vim-surround.git
 
-popd > /dev/null
+cd ../../../
 
 echo ""
 echo "  We're ready to rock!"
