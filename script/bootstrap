@@ -37,5 +37,9 @@ git clone -q https://github.com/tpope/vim-surround.git
 
 cd ../../../
 
+echo "  + Installing formatters..."
+npm install -g js-beautify
+gem install ruby-beautify
+
 echo ""
 echo "  We're ready to rock!"
