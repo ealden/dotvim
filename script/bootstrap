@@ -19,6 +19,7 @@ rm -rf pack/
 mkdir -p pack/all/start
 cd pack/all/start
 
+git clone -q https://github.com/Chiel92/vim-autoformat.git
 git clone -q https://github.com/mileszs/ack.vim.git
 git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
 git clone -q https://github.com/mattn/emmet-vim.git
