@@ -39,7 +39,7 @@ cd ../../../
 
 echo "  + Installing formatters..."
 npm install -g js-beautify
-gem install ruby-beautify
+gem install rubocop
 
 echo ""
 echo "  We're ready to rock!"
