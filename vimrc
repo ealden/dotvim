@@ -85,3 +85,9 @@ let g:ctrlp_user_command = 'ag --nogroup --nobreak --noheading --nocolor --hidde
 let g:ctrlp_working_path_mode = 'ra'
 
 let g:ackprg = 'ag --vimgrep'
+
+au BufWrite * :Autoformat
+
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
