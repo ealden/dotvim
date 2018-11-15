@@ -40,6 +40,7 @@ cd ../../../
 echo "  + Installing formatters..."
 npm install -g js-beautify
 gem install rubocop
+pip install yapf
 
 echo ""
 echo "  We're ready to rock!"
