@@ -6,6 +6,7 @@ filetype plugin indent on
 
 set backspace=indent,eol,start
 set shiftwidth=2 softtabstop=2 expandtab
+set autoindent smartindent cindent
 set hlsearch incsearch ignorecase smartcase 
 set history=200
 set updatecount=0
