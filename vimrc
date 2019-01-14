@@ -18,6 +18,9 @@ set autochdir
 set splitbelow
 set splitright
 
+set encoding=utf8
+set fileencoding=utf8
+
 set wildmenu
 set wildmode=list:longest
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
