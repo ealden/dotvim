@@ -28,6 +28,7 @@ git clone -q https://github.com/posva/vim-vue.git
 git clone -q https://github.com/tpope/vim-bundler.git
 git clone -q https://github.com/tpope/vim-commentary.git
 git clone -q https://github.com/tpope/vim-cucumber.git
+git clone -q https://github.com/tpope/vim-dadbod.git
 git clone -q https://github.com/tpope/vim-dispatch.git
 git clone -q https://github.com/tpope/vim-endwise.git
 git clone -q https://github.com/tpope/vim-fugitive.git
