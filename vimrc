@@ -14,7 +14,6 @@ set updatecount=0
 set number
 set relativenumber
 
-set autochdir
 set splitbelow
 set splitright
 
