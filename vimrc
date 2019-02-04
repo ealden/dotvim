@@ -44,8 +44,8 @@ map <Leader>t :tabnew<CR>
 map <Leader>f :Autoformat<CR>
 map <Leader>s :set hlsearch! hlsearch?<CR>
 
-autocmd User Rails map <buffer> <Leader>e :Rake!<CR>
-autocmd User Rails map <buffer> <Leader>r :.Rake!<CR>
+autocmd User Rails map <buffer> <Leader>e :Rails!<CR>
+autocmd User Rails map <buffer> <Leader>r :.Rails!<CR>
 
 autocmd BufRead,BufNewFile *.coffee.erb set filetype=coffee
 autocmd BufRead,BufNewFile *.erb        set filetype=eruby.html
