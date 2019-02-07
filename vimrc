@@ -43,6 +43,7 @@ map <C-L> <C-W>l
 map <Leader>t :tabnew<CR>
 map <Leader>f :Autoformat<CR>
 map <Leader>s :set hlsearch! hlsearch?<CR>
+map <Leader>o :Copen<CR>
 
 autocmd User Rails map <buffer> <Leader>e :Rails!<CR>
 autocmd User Rails map <buffer> <Leader>r :.Rails!<CR>
