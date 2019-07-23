@@ -17,8 +17,6 @@ set relativenumber
 set splitbelow
 set splitright
 
-set nowrap
-
 set encoding=utf8
 set fileencoding=utf8
 
