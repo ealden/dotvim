@@ -3,7 +3,7 @@
 set -e
 
 echo ""
-echo "  Vim Configuration"
+echo "  Ealden's Vim Configuration"
 echo ""
 
 echo "  + Setting up symlinks..."
