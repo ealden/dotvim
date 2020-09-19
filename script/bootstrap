@@ -41,8 +41,5 @@ git clone -q https://github.com/tpope/vim-surround.git
 
 cd ../../../
 
-echo "  + Installing formatters..."
-gem install rubocop
-
 echo ""
 echo "  We're ready to rock!"
