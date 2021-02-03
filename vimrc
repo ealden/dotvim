@@ -30,6 +30,8 @@ set statusline+=%{FugitiveStatusline()}
 set statusline+=\ %l/%L[%p%%]
 set statusline+=\ %v[0x%B]
 
+set regexpengine=0
+
 map <Left>  :echo "no!"<cr>
 map <Right> :echo "no!"<cr>
 map <Up>    :echo "no!"<cr>
