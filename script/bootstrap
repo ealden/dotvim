@@ -19,25 +19,25 @@ rm -rf pack/
 mkdir -p pack/all/start
 cd pack/all/start
 
-git clone -q https://github.com/Chiel92/vim-autoformat.git
 git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
-git clone -q https://github.com/mattn/emmet-vim.git
 git clone -q https://github.com/mileszs/ack.vim.git
+git clone -q https://github.com/tpope/vim-fugitive.git
+git clone -q https://github.com/tpope/vim-abolish.git
+git clone -q https://github.com/tpope/vim-commentary.git
+git clone -q https://github.com/tpope/vim-repeat.git
+git clone -q https://github.com/tpope/vim-surround.git
+git clone -q https://github.com/tpope/vim-markdown.git
+git clone -q https://github.com/Chiel92/vim-autoformat.git
+git clone -q https://github.com/mattn/emmet-vim.git
+git clone -q https://github.com/tpope/vim-rails.git
+git clone -q https://github.com/tpope/vim-endwise.git
+git clone -q https://github.com/tpope/vim-bundler.git
+git clone -q https://github.com/tpope/vim-cucumber.git
+git clone -q https://github.com/tpope/vim-dadbod.git
 git clone -q https://github.com/mxw/vim-jsx.git
 git clone -q https://github.com/pangloss/vim-javascript.git
 git clone -q https://github.com/posva/vim-vue.git
 git clone -q https://github.com/evanleck/vim-svelte.git
-git clone -q https://github.com/tpope/vim-abolish.git
-git clone -q https://github.com/tpope/vim-bundler.git
-git clone -q https://github.com/tpope/vim-commentary.git
-git clone -q https://github.com/tpope/vim-cucumber.git
-git clone -q https://github.com/tpope/vim-dadbod.git
-git clone -q https://github.com/tpope/vim-endwise.git
-git clone -q https://github.com/tpope/vim-fugitive.git
-git clone -q https://github.com/tpope/vim-markdown.git
-git clone -q https://github.com/tpope/vim-rails.git
-git clone -q https://github.com/tpope/vim-repeat.git
-git clone -q https://github.com/tpope/vim-surround.git
 git clone -q https://github.com/elixir-editors/vim-elixir.git
 
 cd ../../../
