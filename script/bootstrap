@@ -41,7 +41,7 @@ git clone -q https://github.com/evanleck/vim-svelte.git
 git clone -q https://github.com/elixir-editors/vim-elixir.git
 git clone -q https://github.com/rust-lang/rust.vim.git
 
-cd -
+cd - > /dev/null
 
 echo ""
 echo "  We're ready to rock!"
