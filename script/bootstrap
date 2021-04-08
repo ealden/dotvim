@@ -39,6 +39,7 @@ git clone -q https://github.com/pangloss/vim-javascript.git
 git clone -q https://github.com/posva/vim-vue.git
 git clone -q https://github.com/evanleck/vim-svelte.git
 git clone -q https://github.com/elixir-editors/vim-elixir.git
+git clone -q https://github.com/rust-lang/rust.vim.git
 
 cd -
 
