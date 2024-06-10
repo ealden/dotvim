@@ -37,6 +37,7 @@ git clone -q https://github.com/tpope/vim-dadbod.git
 git clone -q https://github.com/mxw/vim-jsx.git
 git clone -q https://github.com/pangloss/vim-javascript.git
 git clone -q https://github.com/posva/vim-vue.git
+git clone -q https://github.com/rust-lang/rust.vim
 
 cd - > /dev/null
 
