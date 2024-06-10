@@ -16,8 +16,8 @@ ln -fs `pwd`/vimrc ~/.vimrc
 echo "  + Setting up packages..."
 rm -rf pack/
 
-mkdir -p pack/all/start
-cd pack/all/start
+mkdir -p pack/plugins/start
+cd pack/plugins/start
 
 git clone -q https://github.com/ctrlpvim/ctrlp.vim.git
 git clone -q https://github.com/mileszs/ack.vim.git
